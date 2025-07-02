@@ -1,0 +1,51 @@
+*{
+    box-sizing: border-box;
+}
+
+body{
+    margin: 0;
+    font-family: "Lato", sans-serif;
+    background-color: var(--bg-white);
+}
+
+.logo{
+    width: 81px;
+    height: 24px;
+    flex-shrink: 0;
+}
+
+.btn{
+    width: 185px;
+    height: 50px;
+    background-color: var(--el-green);
+    color: var(--bg-white);
+    border-radius: 4px;
+    border: none;
+    outline: none;
+    font-size: 20px;
+    font-weight: 400;
+    font-family: "Lato", sans-serif;
+}
+
+.btn:hover,
+.btn:focus-visible{
+    outline: 2px solid var(--bg-green);
+    cursor: pointer;
+}
+
+.container{
+    max-width: 1440px;
+    padding: 0 10px;
+    margin: 0 auto;
+}
+
+ul{
+    list-style: none;
+    margin: 0;
+    padding: 0;
+}
+
+a{
+    text-decoration: none;
+    color: unset;
+}
