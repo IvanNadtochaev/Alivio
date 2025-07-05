@@ -34,7 +34,7 @@ body{
 }
 
 .container{
-    max-width: 1440px;
+    max-width: 1400px;
     padding: 0 10px;
     margin: 0 auto;
 }
@@ -50,6 +50,6 @@ a{
     color: unset;
 }
 
-h1, h2, h3, h4, h5, h6, p{
+h1, h2, h3, h4, h5, h6, p, figure{
     margin: 0;
 }
