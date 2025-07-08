@@ -18,11 +18,9 @@
     <header class="header">
         <div class="container">
             <div class="header__wrapper">
-                <div class="logo">
-                    <svg>
+                    <svg class="logo">
                         <use href="assets/sprites.svg#logo-icon">
                     </svg>
-                </div>
                 <nav class="nav">
                     <ul class="nav__list">
                         <li>
@@ -46,6 +44,36 @@
             </div>
         </div>
     </header>
+
+    <div class="mobile__navigation">
+        <label for="menu-toggler-id" class="mobile-navigation__open">
+            <svg class="mobile__navigation__burger">
+                <use href="assets/sprites.svg#burger-icon">
+            </svg>
+        </label>
+        <input type="checkbox" name="toggler" id="menu-toggler-id" class="mobile__navigation__toggler">
+        <nav class="mobile-menu">
+            <ul class="mobile-menu__list">
+                <li class="mobile-menu__item">
+                    <a href="#about-id" class="mobile-menu__link">Why Alivio</a>
+                </li>
+                <li class="mobile-menu__item">
+                    <a href="#success-id" class="mobile-menu__link">Solutions</a>
+                </li>
+                <li class="mobile-menu__item">
+                    <a href="#product-id" class="mobile-menu__link">Community</a>
+                </li>
+                <li class="mobile-menu__item">
+                    <a href="#pricing-id" class="mobile-menu__link">Pricing</a>
+                </li>
+            </ul>
+            <label for="menu-toggler-id" class="mobile-navigation__close">
+                <svg class="mobile__navigation__cross">
+                    <use href="assets/sprites.svg#cross-icon">
+                </svg>
+            </label>
+        </nav>
+    </div>
     <main class="main">
         <section class="hero" id="hero-id">
             <div class="container">

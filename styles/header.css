@@ -1,15 +1,11 @@
 .header__wrapper{
     height: 85px;
     width: 100%;
-    /* padding: 30px 275px; */
     display: flex;
     align-items: center;
     justify-content: space-between;
 }
-/* 
-.nav {
 
-} */
 .nav__list {
     display: flex;
     align-items: center;
@@ -49,14 +45,24 @@
     font-size: 1rem;
 }
 
-    .btn{
+    .buttons .btn{
         width: 120px;
         font-size: 16px;
     }
 }
 
 @media(max-width:768px){
+    .header__wrapper{
+        padding: 0 0 0 45px;
+    }
+
     .nav {
         display: none;
+    }
+}
+
+@media(max-width:390px){
+    .buttons .btn{
+        width: 90px;
     }
 }
