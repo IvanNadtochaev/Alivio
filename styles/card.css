@@ -27,7 +27,7 @@
     font-weight: 400;
     top: -115px;
     left: -105px;
-    color: var(--el-green-opacity)
+    color: var(--el-green-opacity);
 }
 
 .card__title-2::before{
@@ -63,8 +63,11 @@
     .card__decsription{
         font-size: 16px;
     }
+    .card__title.card__title--right {
+        align-self: center;
+    }
 }
-@media(max-width:368px){
+@media(max-width:369px){
     .card{
         height: 700px;
     }
